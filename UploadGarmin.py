@@ -99,7 +99,7 @@ class UploadGarmin:
         @ivar workout_id: Workout ID
         @type workout_id: int
         """
-        return "http://connect.garmin.com/activity/" % (int(44846757))
+        return "http://connect.garmin.com/activity/" % (int(workout_id))
         
 if __name__ == '__main__':
     g = UploadGarmin()
